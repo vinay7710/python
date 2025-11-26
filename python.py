@@ -18,6 +18,6 @@ def solution (recording):
     example1 =['W', 'w', 'a', 'A', 'a', 'b', 'B']
     example2 = ['w', 'w', 'a', 'w', 'a',]
 
-    print(solution(example1))  
+    print(solution(example1))  #3
     #2 (note:the prompt contains a conflicting '3' value; correct is 2)
     print(solution(example2))
