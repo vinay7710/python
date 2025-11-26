@@ -3,7 +3,8 @@ def solution (recording):
     Args:
         recording(list[str]):list of single-letter strings (A-Z or a-z)
     Retuns:
-    int:number of key changes (number of consecutive pairs where keys difer)"""
+    int:number of key changes (number of consecutive pairs where keys difer)
+    """
     if not recording:
         return 0
     changes = 0
@@ -20,4 +21,4 @@ def solution (recording):
 
     print(solution(example1))  
     #2 (note:the prompt contains a conflicting '3' value; correct is 2)
-    print(solution(example2))
+    print(solution(example2)) #3
